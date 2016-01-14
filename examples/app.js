@@ -8,7 +8,7 @@ require('./vendors/material-icons/css/material-design-iconic-font.css');
 
 // create editor instance
 let sir = new Sir({
-  el: document.getElementById('sir-trevor-container'),
+  el: document.getElementById('sir-ivan-container'),
   language: 'ru',
   convertFromMarkdown: true,
   convertToMarkdown: true

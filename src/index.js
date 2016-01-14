@@ -12,7 +12,7 @@ const Locale = require('../locales/ru');
  * Sir Trevor function
  * @param {[type]} options [description]
  */
-const SirTrevor = function(options) {
+const SirIvan = function(options) {
   this.Config   = _.extend(Config, options, {
     locale: Locale
   });
@@ -32,4 +32,4 @@ const SirTrevor = function(options) {
 require('./stylesheets/main.styl');
 
 // return
-module.exports = SirTrevor;
+module.exports = SirIvan;

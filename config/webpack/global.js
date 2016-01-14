@@ -56,7 +56,7 @@ module.exports = function(_path) {
 
       // Application entry point
       new HtmlPlugin({
-        title: 'sir revor',
+        title: 'sir ivan',
         chunks: ['app', 'vendors'],
         filename: 'index.html',
         template: 'examples/index.html'
