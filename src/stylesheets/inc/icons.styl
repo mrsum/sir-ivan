@@ -1,0 +1,64 @@
+.st-icon
+  font-family 'Material-Design-Iconic-Font'   
+
+  &--add
+    &:after
+      display block
+      text-align center
+      font-size 1.875em
+      padding 0.3em 0
+      line-height 0.9
+      border-radius 0.2em
+    
+    .with-st-controls
+      &:after
+        display none
+    
+[data-icon],
+[data-icon-after]
+  font-size 14px
+  
+[data-icon]:before,
+[data-icon-after]:after
+  font-family 'Material-Design-Iconic-Font' 
+
+[data-icon-after='add']
+  text-align center
+  font-size 27px
+  width 100%
+  line-height 35px
+  &:hover
+    background #f3f3f3
+    cursor pointer
+    &:after
+      color #3782c4
+  &:after
+    content '\f275'
+    
+[data-icon='move']
+  &:before
+    content '\f2f0'
+    
+[data-icon='show']
+  &:before
+    content '\f15c'
+    
+[data-icon='bin']
+  &:hover
+    &:before
+      content '\f154'
+  &:before
+    content '\f154'
+    
+[data-icon='add']
+  &:before
+    content '\f275'
+
+
+[data-icon='yes']
+  &:before
+    content '\f26b'
+    
+[data-icon='no']
+  &:before
+    content '\f136'

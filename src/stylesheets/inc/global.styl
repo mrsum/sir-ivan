@@ -1,0 +1,77 @@
+.CodeMirror
+  height auto
+  min-height 100px
+  &-line
+    span
+      font-size 12px
+  &-scroll
+    min-height: 100px
+
+.st-spinner
+  position absolute !important
+  left 50%
+  top 50%
+
+.st-input-label
+  display block
+  margin-bottom 0.3em
+
+.st-errors
+  background-color #ffe1e4
+  padding 2em
+  color #d70014
+  ul
+    padding-left 1em
+  p
+    margin-bottom 0.5em
+    font-weight 700
+
+.st-errors p, .st-errors ul
+  margin 0
+
+.st-drag-over
+  .st-block__inputs
+    bordercolor #cdcdcd
+
+.st-upload-btn
+  border 0
+  background #42474B
+  border-radius 0.2em
+  padding 0.35em 1em
+  font-size 1.125em
+  cursor pointer
+  color #fff
+  position relative
+  z-index 10
+
+.st-msg--error
+  color #d70014
+
+.st-outer
+  font-size 16px
+  position relative
+
+.status-bar
+  &[data-cursor]
+    &:before
+      left 6px
+      bottom 6px
+      color #B92121
+      z-index 8
+      font-size 11px
+      background #F9F9F9
+      padding 2px 5px
+      border-radius 3px
+      position absolute
+      content:  "Lines: " attr(data-lines-count) " | Position: " attr(data-cursor)
+
+.editor-markdown-preview
+  z-index 3
+  position relative
+  background-color #fff
+   
+.st-text-block,
+.st-outer, 
+.st-block__inner
+  font-family $font-family-sans-serif
+  font-size $font-size-base

@@ -1,0 +1,46 @@
+{
+  "name": "sir-trevor",
+  "description": "Private Fork of sir trevor js",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:madebymany/sir-trevor-js.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack-dev-server --progress",
+    "build": "rm -rf dist/ && NODE_ENV=production webpack --progress"
+  },
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "backbone.marionette": "^2.4.2",
+    "codemirror": "^5.5.0",
+    "jquery": "^2.1.4",
+    "marked": "^0.3.5",
+    "sortablejs": "^1.2.1",
+    "to-markdown": "^1.2.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.3",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^5.8.3",
+    "bootstrap": "^3.3.4",
+    "css-loader": "^0.10.1",
+    "del": "^1.1.1",
+    "eslint-config-rambler": "git://github.com/rambler-digital-solutions/dotfiles.git",
+    "extract-text-webpack-plugin": "^0.5.0",
+    "html-webpack-plugin": "^1.3.0",
+    "jade": "^1.9.2",
+    "jade-loader": "^0.7.1",
+    "json-loader": "^0.5.1",
+    "lodash": "^3.8.0",
+    "path": "^0.11.14",
+    "style-loader": "^0.10.1",
+    "stylus-loader": "^1.1.0",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.7.3",
+    "webpack-dev-middleware": "^1.0.11",
+    "webpack-dev-server": "^1.8.2"
+  }
+}

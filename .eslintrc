@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/eslint-config-rambler/.eslintrc",
+  "rules": {
+    "prefer-const": 0,
+    "block-on-top": 0
+  }
+}

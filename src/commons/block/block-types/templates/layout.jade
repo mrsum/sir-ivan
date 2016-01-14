@@ -1,0 +1,4 @@
+.st-block-controls.st-block-controls--active
+  each val in data
+    a.st-block-control(data-type='#{val.key}' title='#{val.key}')
+      span(class='#{val.icon}')
