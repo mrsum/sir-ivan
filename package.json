@@ -1,10 +1,10 @@
 {
-  "name": "sir-trevor",
-  "description": "Private Fork of sir trevor js",
+  "name": "sir-ivan",
+  "description": "Refactored fork of sir trevor js",
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:madebymany/sir-trevor-js.git"
+    "url": "git@github.com:mrsum/sir-ivan.git"
   },
   "main": "src/index.js",
   "scripts": {
